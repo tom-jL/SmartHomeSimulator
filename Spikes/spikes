@@ -1,0 +1,20 @@
+Spikes (to research)
+
+the simulator will keep track of time,  estimate: 1 hour (spike)
+How will the simulator keep track of time, how will we determine second, minute or hour intervals.
+
+a user can schedule an action of an appliance or fixture, estimate: 5 minutes each class, 30 minutes research (spike)
+How will actions be ordered and triggered by certain times.
+
+a user can skip to, speed up or slow down the time, estimate: 10 minutes (spike)
+How will time intervals be transformed to longer or shorter intervals.
+
+a user can view past logs of simulated days note: includes stats of all aplliances and fixtures and general home stats, estimate: 1 hour (spike)
+How to store and read from log files.
+
+a user can save and load home configurations, estimate: 1 hour (spike)
+How to save and load objects to file.
+
+
+a user wants to display the house and smart devices
+How to draw images on canvas and animate

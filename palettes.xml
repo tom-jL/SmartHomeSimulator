@@ -1,0 +1,618 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<palettes.xml>
+  <room name="Kitchen">
+    <sprite name="light">
+      <x>512.0</x>
+      <y>107.0</y>
+      <z>2</z>
+      <tilesX>1</tilesX>
+      <tilesY>1</tilesY>
+      <scale>1.0</scale>
+      <path>img/light.png</path>
+      <passable>true</passable>
+      <mountable>false</mountable>
+      <smartobject name="Light">
+        <powerusage>0.06</powerusage>
+        <waterusage>0</waterusage>
+        <schedule/>
+      </smartobject>
+    </sprite>
+    <sprite name="floor">
+      <x>512.0</x>
+      <y>107.0</y>
+      <z>0</z>
+      <tilesX>1</tilesX>
+      <tilesY>1</tilesY>
+      <scale>1.0</scale>
+      <path>img/floor.png</path>
+      <passable>true</passable>
+      <mountable>false</mountable>
+    </sprite>
+    <sprite name="sidewall">
+      <x>512.0</x>
+      <y>203.0</y>
+      <z>0</z>
+      <tilesX>1</tilesX>
+      <tilesY>1</tilesY>
+      <scale>1.0</scale>
+      <path>img/sidewall.png</path>
+      <passable>false</passable>
+      <mountable>false</mountable>
+    </sprite>
+    <sprite name="wall">
+      <x>512.0</x>
+      <y>203.0</y>
+      <z>0</z>
+      <tilesX>1</tilesX>
+      <tilesY>1</tilesY>
+      <scale>1.0</scale>
+      <path>img/wall.png</path>
+      <passable>false</passable>
+      <mountable>false</mountable>
+    </sprite>
+    <sprite name="topwall">
+      <x>384.0</x>
+      <y>310.0</y>
+      <z>0</z>
+      <tilesX>1</tilesX>
+      <tilesY>1</tilesY>
+      <scale>1.0</scale>
+      <path>img/topwall.png</path>
+      <passable>false</passable>
+      <mountable>false</mountable>
+    </sprite>
+    <sprite name="stove">
+      <x>384.0</x>
+      <y>126.0</y>
+      <z>1</z>
+      <tilesX>1</tilesX>
+      <tilesY>1</tilesY>
+      <scale>1.0</scale>
+      <path>img/stove.png</path>
+      <passable>false</passable>
+      <mountable>false</mountable>
+      <smartobject name="Stove">
+        <powerusage>2</powerusage>
+        <waterusage>0</waterusage>
+        <schedule/>
+      </smartobject>
+    </sprite>
+    <sprite name="fridge">
+      <x>448.0</x>
+      <y>76.0</y>
+      <z>1</z>
+      <tilesX>1</tilesX>
+      <tilesY>1</tilesY>
+      <scale>1.0</scale>
+      <path>img/fridge.png</path>
+      <passable>false</passable>
+      <mountable>false</mountable>
+      <smartobject name="Smart Fridge">
+        <powerusage>0.3</powerusage>
+        <waterusage>0.0</waterusage>
+        <schedule/>
+      </smartobject>
+    </sprite>
+    <sprite name="counter">
+      <x>384.0</x>
+      <y>193.0</y>
+      <z>1</z>
+      <tilesX>1</tilesX>
+      <tilesY>1</tilesY>
+      <scale>1.0</scale>
+      <path>img/counter.png</path>
+      <passable>false</passable>
+      <mountable>false</mountable>
+    </sprite>
+    <sprite name="endcounter">
+      <x>448.0</x>
+      <y>193.0</y>
+      <z>1</z>
+      <tilesX>1</tilesX>
+      <tilesY>1</tilesY>
+      <scale>1.0</scale>
+      <path>img/endcounter.png</path>
+      <passable>false</passable>
+      <mountable>false</mountable>
+    </sprite>
+    <sprite name="microwave">
+      <x>448.0</x>
+      <y>193.0</y>
+      <z>2</z>
+      <tilesX>1</tilesX>
+      <tilesY>1</tilesY>
+      <scale>1.0</scale>
+      <path>img/microwave.png</path>
+      <passable>false</passable>
+      <mountable>true</mountable>
+      <smartobject name="Microwave">
+        <powerusage>1</powerusage>
+        <waterusage>0</waterusage>
+        <schedule/>
+      </smartobject>
+    </sprite>
+    <sprite name="sink">
+      <x>384.0</x>
+      <y>193.0</y>
+      <z>2</z>
+      <tilesX>2</tilesX>
+      <tilesY>1</tilesY>
+      <scale>1.0</scale>
+      <path>img/sink.png</path>
+      <passable>false</passable>
+      <mountable>true</mountable>
+    </sprite>
+    <sprite name="coffeemachine">
+      <x>512.0</x>
+      <y>32.0</y>
+      <z>2</z>
+      <tilesX>2</tilesX>
+      <tilesY>1</tilesY>
+      <scale>1</scale>
+      <path>img/coffeemachine.png</path>
+      <passable>false</passable>
+      <mountable>true</mountable>
+      <smartobject name="Coffee Machine">
+        <powerusage>0.8</powerusage>
+        <waterusage>1</waterusage>
+        <schedule/>
+      </smartobject>
+    </sprite>
+  </room>
+  <room name="Livingroom">
+    <sprite name="light">
+      <x>512.0</x>
+      <y>107.0</y>
+      <z>2</z>
+      <tilesX>1</tilesX>
+      <tilesY>1</tilesY>
+      <scale>1.0</scale>
+      <path>img/light.png</path>
+      <passable>true</passable>
+      <mountable>false</mountable>
+      <smartobject name="Light">
+        <powerusage>0.06</powerusage>
+        <waterusage>0</waterusage>
+        <schedule/>
+      </smartobject>
+    </sprite>
+    <sprite name="floor">
+      <x>512.0</x>
+      <y>107.0</y>
+      <z>0</z>
+      <tilesX>1</tilesX>
+      <tilesY>1</tilesY>
+      <scale>1.0</scale>
+      <path>img/floor.png</path>
+      <passable>true</passable>
+      <mountable>false</mountable>
+    </sprite>
+    <sprite name="wall">
+      <x>512.0</x>
+      <y>203.0</y>
+      <z>0</z>
+      <tilesX>1</tilesX>
+      <tilesY>1</tilesY>
+      <scale>1.0</scale>
+      <path>img/wall.png</path>
+      <passable>false</passable>
+      <mountable>false</mountable>
+    </sprite>
+    <sprite name="sidewall">
+      <x>512.0</x>
+      <y>203.0</y>
+      <z>0</z>
+      <tilesX>1</tilesX>
+      <tilesY>1</tilesY>
+      <scale>1.0</scale>
+      <path>img/sidewall.png</path>
+      <passable>false</passable>
+      <mountable>false</mountable>
+    </sprite>
+    <sprite name="topwall">
+      <x>384.0</x>
+      <y>310.0</y>
+      <z>0</z>
+      <tilesX>1</tilesX>
+      <tilesY>1</tilesY>
+      <scale>1.0</scale>
+      <path>img/topwall.png</path>
+      <passable>false</passable>
+      <mountable>false</mountable>
+    </sprite>
+    <sprite name="clock">
+      <x>512.0</x>
+      <y>32.0</y>
+      <z>1</z>
+      <tilesX>4</tilesX>
+      <tilesY>1</tilesY>
+      <scale>1.5</scale>
+      <path>img/clock.png</path>
+      <passable>false</passable>
+      <mountable>false</mountable>
+    </sprite>
+    <sprite name="bookshelf">
+      <x>512.0</x>
+      <y>32.0</y>
+      <z>1</z>
+      <tilesX>1</tilesX>
+      <tilesY>1</tilesY>
+      <scale>1.5</scale>
+      <path>img/bookshelf.png</path>
+      <passable>false</passable>
+      <mountable>false</mountable>
+    </sprite>
+    <sprite name="door">
+      <x>512.0</x>
+      <y>0.0</y>
+      <z>0</z>
+      <tilesX>1</tilesX>
+      <tilesY>1</tilesY>
+      <scale>1.0</scale>
+      <path>img/closed_door.png</path>
+      <passable>false</passable>
+      <mountable>false</mountable>
+    </sprite>
+    <sprite name="computer">
+      <x>512.0</x>
+      <y>32.0</y>
+      <z>2</z>
+      <tilesX>2</tilesX>
+      <tilesY>1</tilesY>
+      <scale>1</scale>
+      <path>img/pc.png</path>
+      <passable>false</passable>
+      <mountable>true</mountable>
+      <smartobject name="Computer">
+        <powerusage>0.5</powerusage>
+        <waterusage>0</waterusage>
+        <schedule/>
+      </smartobject>
+    </sprite>
+    <sprite name="aircon">
+      <x>512.0</x>
+      <y>32.0</y>
+      <z>2</z>
+      <tilesX>1</tilesX>
+      <tilesY>1</tilesY>
+      <scale>1</scale>
+      <path>img/aircon.png</path>
+      <passable>false</passable>
+      <mountable>true</mountable>
+      <smartobject name="Airconditioner">
+        <powerusage>2</powerusage>
+        <waterusage>0</waterusage>
+        <schedule/>
+      </smartobject>
+    </sprite>
+  </room>
+  <room name="Bathroom">
+    <sprite name="light">
+      <x>512.0</x>
+      <y>107.0</y>
+      <z>2</z>
+      <tilesX>1</tilesX>
+      <tilesY>1</tilesY>
+      <scale>1.0</scale>
+      <path>img/light.png</path>
+      <passable>true</passable>
+      <mountable>false</mountable>
+      <smartobject name="Light">
+        <powerusage>0.06</powerusage>
+        <waterusage>0</waterusage>
+        <schedule/>
+      </smartobject>
+    </sprite>
+    <sprite name="bathtile">
+      <x>512.0</x>
+      <y>171.0</y>
+      <z>0</z>
+      <tilesX>1</tilesX>
+      <tilesY>1</tilesY>
+      <scale>1.0</scale>
+      <path>img/bathfloor.png</path>
+      <passable>true</passable>
+      <mountable>false</mountable>
+    </sprite>
+    <sprite name="sidewall">
+      <x>512.0</x>
+      <y>203.0</y>
+      <z>0</z>
+      <tilesX>1</tilesX>
+      <tilesY>1</tilesY>
+      <scale>1.0</scale>
+      <path>img/sidewall.png</path>
+      <passable>false</passable>
+      <mountable>false</mountable>
+    </sprite>
+    <sprite name="wall">
+      <x>512.0</x>
+      <y>203.0</y>
+      <z>0</z>
+      <tilesX>1</tilesX>
+      <tilesY>1</tilesY>
+      <scale>1.0</scale>
+      <path>img/wall.png</path>
+      <passable>false</passable>
+      <mountable>false</mountable>
+    </sprite>
+    <sprite name="topwall">
+      <x>384.0</x>
+      <y>310.0</y>
+      <z>0</z>
+      <tilesX>1</tilesX>
+      <tilesY>1</tilesY>
+      <scale>1.0</scale>
+      <path>img/topwall.png</path>
+      <passable>false</passable>
+      <mountable>false</mountable>
+    </sprite>
+    <sprite name="bathtub">
+      <x>512.0</x>
+      <y>32.0</y>
+      <z>1</z>
+      <tilesX>1</tilesX>
+      <tilesY>1</tilesY>
+      <scale>1</scale>
+      <path>img/bathtub.png</path>
+      <passable>false</passable>
+      <mountable>false</mountable>
+      <smartobject name="Smart Bath">
+        <powerusage>0.1</powerusage>
+        <waterusage>300</waterusage>
+        <schedule/>
+      </smartobject>
+    </sprite>
+    <sprite name="bathsink">
+      <x>512.0</x>
+      <y>32.0</y>
+      <z>1</z>
+      <tilesX>1</tilesX>
+      <tilesY>1</tilesY>
+      <scale>1</scale>
+      <path>img/bathsink.png</path>
+      <passable>false</passable>
+      <mountable>true</mountable>
+    </sprite>
+    <sprite name="toilet">
+      <x>512.0</x>
+      <y>32.0</y>
+      <z>1</z>
+      <tilesX>2</tilesX>
+      <tilesY>1</tilesY>
+      <scale>1</scale>
+      <path>img/toilet.png</path>
+      <passable>false</passable>
+      <mountable>false</mountable>
+    </sprite>
+    <sprite name="mirror">
+      <x>512.0</x>
+      <y>32.0</y>
+      <z>1</z>
+      <tilesX>1</tilesX>
+      <tilesY>1</tilesY>
+      <scale>1</scale>
+      <path>img/mirror.png</path>
+      <passable>false</passable>
+      <mountable>true</mountable>
+    </sprite>
+    <sprite name="shower">
+      <x>512.0</x>
+      <y>32.0</y>
+      <z>1</z>
+      <tilesX>3</tilesX>
+      <tilesY>1</tilesY>
+      <scale>1</scale>
+      <path>img/shower.png</path>
+      <passable>false</passable>
+      <mountable>false</mountable>
+      <smartobject name="Shower">
+        <powerusage>0</powerusage>
+        <waterusage>140</waterusage>
+        <schedule/>
+      </smartobject>
+    </sprite>
+  </room>
+  <room name="Bedroom">
+    <sprite name="light">
+      <x>512.0</x>
+      <y>107.0</y>
+      <z>2</z>
+      <tilesX>1</tilesX>
+      <tilesY>1</tilesY>
+      <scale>1.0</scale>
+      <path>img/light.png</path>
+      <passable>true</passable>
+      <mountable>false</mountable>
+      <smartobject name="Light">
+        <powerusage>0.06</powerusage>
+        <waterusage>0</waterusage>
+        <schedule/>
+      </smartobject>
+    </sprite>
+    <sprite name="floor">
+      <x>512.0</x>
+      <y>107.0</y>
+      <z>0</z>
+      <tilesX>1</tilesX>
+      <tilesY>1</tilesY>
+      <scale>1.0</scale>
+      <path>img/floor.png</path>
+      <passable>true</passable>
+      <mountable>false</mountable>
+    </sprite>
+    <sprite name="sidewall">
+      <x>512.0</x>
+      <y>203.0</y>
+      <z>0</z>
+      <tilesX>1</tilesX>
+      <tilesY>1</tilesY>
+      <scale>1.0</scale>
+      <path>img/sidewall.png</path>
+      <passable>false</passable>
+      <mountable>false</mountable>
+    </sprite>
+    <sprite name="topwall">
+      <x>384.0</x>
+      <y>310.0</y>
+      <z>0</z>
+      <tilesX>1</tilesX>
+      <tilesY>1</tilesY>
+      <scale>1.0</scale>
+      <path>img/topwall.png</path>
+      <passable>false</passable>
+      <mountable>false</mountable>
+    </sprite>
+    <sprite name="wall">
+      <x>512.0</x>
+      <y>203.0</y>
+      <z>0</z>
+      <tilesX>1</tilesX>
+      <tilesY>1</tilesY>
+      <scale>1.0</scale>
+      <path>img/wall.png</path>
+      <passable>false</passable>
+      <mountable>false</mountable>
+    </sprite>
+    <sprite name="bed">
+      <x>384.0</x>
+      <y>210.0</y>
+      <z>1</z>
+      <tilesX>1</tilesX>
+      <tilesY>1</tilesY>
+      <scale>1.0</scale>
+      <path>img/bed.png</path>
+      <passable>false</passable>
+      <mountable>false</mountable>
+    </sprite>
+    <sprite name="drawershelf">
+      <x>512.0</x>
+      <y>32.0</y>
+      <z>1</z>
+      <tilesX>1</tilesX>
+      <tilesY>1</tilesY>
+      <scale>1.5</scale>
+      <path>img/drawershelf.png</path>
+      <passable>false</passable>
+      <mountable>false</mountable>
+    </sprite>
+  </room>
+  <room name="Garage">
+    <sprite name="light">
+      <x>512.0</x>
+      <y>107.0</y>
+      <z>2</z>
+      <tilesX>1</tilesX>
+      <tilesY>1</tilesY>
+      <scale>1.0</scale>
+      <path>img/light.png</path>
+      <passable>true</passable>
+      <mountable>false</mountable>
+      <smartobject name="Light">
+        <powerusage>0.06</powerusage>
+        <waterusage>0</waterusage>
+        <schedule/>
+      </smartobject>
+    </sprite>
+    <sprite name="floor">
+      <x>512.0</x>
+      <y>107.0</y>
+      <z>0</z>
+      <tilesX>1</tilesX>
+      <tilesY>1</tilesY>
+      <scale>1.0</scale>
+      <path>img/floor.png</path>
+      <passable>true</passable>
+      <mountable>false</mountable>
+    </sprite>
+    <sprite name="sidewall">
+      <x>512.0</x>
+      <y>203.0</y>
+      <z>0</z>
+      <tilesX>1</tilesX>
+      <tilesY>1</tilesY>
+      <scale>1.0</scale>
+      <path>img/sidewall.png</path>
+      <passable>false</passable>
+      <mountable>false</mountable>
+    </sprite>
+    <sprite name="topwall">
+      <x>384.0</x>
+      <y>310.0</y>
+      <z>0</z>
+      <tilesX>1</tilesX>
+      <tilesY>1</tilesY>
+      <scale>1.0</scale>
+      <path>img/topwall.png</path>
+      <passable>false</passable>
+      <mountable>false</mountable>
+    </sprite>
+    <sprite name="washingmachine">
+      <x>512.0</x>
+      <y>32.0</y>
+      <z>1</z>
+      <tilesX>1</tilesX>
+      <tilesY>1</tilesY>
+      <scale>1</scale>
+      <path>img/washingmachine.png</path>
+      <passable>false</passable>
+      <mountable>false</mountable>
+      <smartobject name="WashingMachine">
+        <powerusage>1</powerusage>
+        <waterusage>100</waterusage>
+        <schedule/>
+      </smartobject>
+    </sprite>
+  </room>
+  <room name="Patio">
+    <sprite name="light">
+      <x>512.0</x>
+      <y>107.0</y>
+      <z>2</z>
+      <tilesX>1</tilesX>
+      <tilesY>1</tilesY>
+      <scale>1.0</scale>
+      <path>img/light.png</path>
+      <passable>true</passable>
+      <mountable>false</mountable>
+      <smartobject name="Light">
+        <powerusage>0.06</powerusage>
+        <waterusage>0</waterusage>
+        <schedule/>
+      </smartobject>
+    </sprite>
+    <sprite name="grass">
+      <x>512.0</x>
+      <y>107.0</y>
+      <z>0</z>
+      <tilesX>1</tilesX>
+      <tilesY>1</tilesY>
+      <scale>1.0</scale>
+      <path>img/grass.png</path>
+      <passable>true</passable>
+      <mountable>false</mountable>
+    </sprite>
+    <sprite name="sidewall">
+      <x>512.0</x>
+      <y>203.0</y>
+      <z>0</z>
+      <tilesX>1</tilesX>
+      <tilesY>1</tilesY>
+      <scale>1.0</scale>
+      <path>img/sidewall.png</path>
+      <passable>false</passable>
+      <mountable>false</mountable>
+    </sprite>
+    <sprite name="topwall">
+      <x>384.0</x>
+      <y>310.0</y>
+      <z>0</z>
+      <tilesX>1</tilesX>
+      <tilesY>1</tilesY>
+      <scale>1.0</scale>
+      <path>img/topwall.png</path>
+      <passable>false</passable>
+      <mountable>false</mountable>
+    </sprite>
+  </room>
+</palettes.xml>

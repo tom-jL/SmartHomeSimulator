@@ -1,0 +1,46 @@
+User Stories
+
+EPIC: IT@JCU want to simulate a "smart home"
+
+EPICs: 
+a user wants to monitor and regulate simulated electricity usage (done)
+a user wants to monitor and regulate simulated water usage (done)
+note: dependent on simulated temperature and weather conditions
+a user wants the smart home to respond to simulated security threats and hazards (done)
+note: examples given are fire, intruder.
+
+a user wants to view and control the simulation with a GUI
+
+user stories
+
+a user can navigate through actions in a menu, estimate: 1 hour (done)
+the simulator will keep track of time,  estimate: 1 hour (spike) (done)
+a user can view the status of an applicance or fixture, estimate: 5 minutes each class (done)
+a user can schedule an action of an appliance or fixture, estimate: 5 minutes each class, 30 minutes research (spike) (done)
+a user can immediately trigger an appliance or fixture action, estimate: 5 minutes each class (done)
+a user can view the current time, estimate: 5 minutes (done)
+a user can skip to, speed up or slow down the time, estimate: 10 minutes (spike) (todo)
+a user can view the inside and outside temperature, estimate: 10 minutes (done)
+a user can view the total power usage, estimate: 5 minutes (done)
+a user can view the total water usage, estimate: 5 minutes (done)
+a user can add an appliance, estimate: 10 minutes (todo)
+a user can view past logs of simulated days note: includes stats of all aplliances and fixtures and general home stats, estimate: 1 hour (spike) (todo)
+a user can save and load home configurations, estimate: 1 hour (spike) (done)
+a user can move an appliance to a different room, estimate: 10 minutes (todo)
+the simulator should randomly trigger environmental events,  estimate: 30 minutes (done)
+the simulator should randomly trigger household events, estimate: 30 minutes (done)
+appliances and fixtures should respond appropiately to environmental and household events, estimate: 1 hour (done)
+a user can trigger environmental events, estimate: 10 minutes (todo)
+a user can trigger household events, estimate: 10 minutes (todo)
+
+
+GUI user stories:
+
+a user wants a file menu, with a Load and Exit item.
+a user wants a simulation menu, with a show/hide, run, pause and stop item.
+a user wants a help menu, with a about and help item.
+a user wants a status bar to display messages
+a user wants to display the house and smart devices (spike)
+a user wants to display statistics of the house
+
+a user wants to display charts for house statistics
